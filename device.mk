@@ -446,3 +446,4 @@ include device/google/gs-common/thermal/thermal_hal/device.mk
 
 # power HAL
 include hardware/google/pixel/power-libperfmgr/aidl/device.mk
+$(call inherit-product, vendor/lindroid/lindroid.mk)
